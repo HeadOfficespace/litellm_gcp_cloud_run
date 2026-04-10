@@ -1,5 +1,5 @@
 # Use the provided base image
-FROM ghcr.io/berriai/litellm:main-latest
+FROM ghcr.io/berriai/litellm:main-1.83.0-nightly
 
 # Set the working directory to /app
 WORKDIR /app
