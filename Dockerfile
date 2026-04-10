@@ -1,5 +1,7 @@
 # Use the provided base image
-FROM ghcr.io/berriai/litellm:main-1.83.0-nightly
+FROM docker.litellm.ai/berriai/litellm:main-v1.83.3.rc.1
+
+ARG CACHEBUST=1
 
 # Set the working directory to /app
 WORKDIR /app
